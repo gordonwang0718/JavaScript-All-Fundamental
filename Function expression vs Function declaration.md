@@ -18,7 +18,7 @@ var foo = function foo() { return 5; }
 ~~~
 ***
 >- Remember the difference between: **function statements**`(function a() {})` 
-and **function expressions**`(var a = function() {})`? 
+and **function expressions** `(var a = function() {})`? 
 >   1. So, IIFE is a **function expression**. To make it an expression we surround our function declaration into the parens. We do it to explicitly tell the parser that it's an expression, not a statement (JS doesn't allow statements in parens).
 >   2.  After the function you can see the two `()` braces, this is how we run the function we just declared.
 
